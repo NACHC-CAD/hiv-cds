@@ -2,3 +2,5 @@ http:\/\/fhir.org\/guides\/nachc\/hiv-cds\/ValueSet\/
 https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\/
 find . -type f -exec sed -i 's/http:\/\/fhir.org\/guides\/nachc\/hiv-cds\/ValueSet\//https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\//g' {} +
 
+find . -type f -exec sed -i 's/https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\//https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\/valueset-/g' {} +
+

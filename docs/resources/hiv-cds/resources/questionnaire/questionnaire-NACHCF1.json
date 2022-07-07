@@ -39,24 +39,24 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/drug-rehabilitation#Procedure.code",
     "text": "Concepts related to Injection Drug Use Rehabiliation",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-f1-de2"
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de2"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-findings#Observation.code",
     "text": "Concepts related to findings or observations related to Injection Drug Usage",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-f1-de13"
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de13"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use-diagnosis#Condition.code",
     "text": "Concepts Associated with Injection Drug Use Diagnosis",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-f1-de16"
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de16"
   }, {
     "linkId": "4",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/injection-drug-use#MedicationStatement.medication[x]",
     "text": "Concepts related to Injection Drug Use History",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-f1-de201"
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de201"
   } ]
 }
