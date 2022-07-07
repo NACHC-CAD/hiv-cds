@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-d2-de67",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d2-de67",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-d2-de67",
   "name": "GonorrheatestCodes",
   "title": "Gonorrhea test Codes",
   "status": "draft",

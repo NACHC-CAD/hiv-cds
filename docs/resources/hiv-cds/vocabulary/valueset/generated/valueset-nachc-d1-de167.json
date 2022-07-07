@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-d1-de167",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de167",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-d1-de167",
   "name": "GonorrheaOrganismorSubstanceinLabResultsCodes",
   "title": "Gonorrhea Organism or Substance in Lab Results Codes",
   "status": "draft",

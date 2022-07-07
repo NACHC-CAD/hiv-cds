@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-c2-de8",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c2-de8",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-c2-de8",
   "name": "SyphilisTestsforTreponemalorNonAntibodyCodes",
   "title": "Syphilis (Tests for Treponemal or Non Antibody) Codes",
   "status": "draft",

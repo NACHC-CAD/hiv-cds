@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-e2-de49",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e2-de49",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-e2-de49",
   "name": "ChlamydiatestCodes",
   "title": "Chlamydia test Codes",
   "status": "draft",

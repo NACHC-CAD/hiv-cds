@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-a2-de173",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a2-de173",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-a2-de173",
   "name": "HIVViralLoadCodes",
   "title": "HIV Viral Load Codes",
   "status": "draft",

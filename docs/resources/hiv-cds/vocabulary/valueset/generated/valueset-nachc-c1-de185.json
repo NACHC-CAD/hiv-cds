@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-c1-de185",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-c1-de185",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-c1-de185",
   "name": "SyphilisOrganismorSubstanceinLabResultsCodes",
   "title": "Syphilis (Organism or Substance in Lab Results) Codes",
   "status": "draft",

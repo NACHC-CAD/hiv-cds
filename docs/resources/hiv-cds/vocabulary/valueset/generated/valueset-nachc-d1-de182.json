@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-d1-de182",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-d1-de182",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-d1-de182",
   "name": "GonorrheaSecondarySitesCodes",
   "title": "Gonorrhea Secondary Sites Codes",
   "status": "draft",

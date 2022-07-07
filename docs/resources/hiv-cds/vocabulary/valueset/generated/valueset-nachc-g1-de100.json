@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-g1-de100",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-g1-de100",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-g1-de100",
   "name": "AlternativenPEPOrderCodes",
   "title": "Alternative nPEP Order Codes",
   "status": "draft",

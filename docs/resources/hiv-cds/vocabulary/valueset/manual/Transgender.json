@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "Transgender",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/Transgender",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/Transgender",
   "name": "Transgender",
   "title": "Transgender",
   "status": "active",

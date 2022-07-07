@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-e1-de32",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-e1-de32",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-e1-de32",
   "name": "ChlamydiatrachomatisInfectionCodes",
   "title": "Chlamydia trachomatis Infection Codes",
   "status": "draft",

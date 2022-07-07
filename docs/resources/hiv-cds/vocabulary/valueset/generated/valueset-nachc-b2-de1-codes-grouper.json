@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-b2-de1-codes-grouper",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1-codes-grouper",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-b2-de1-codes-grouper",
   "name": "HepatitisCTestCodesGrouper",
   "title": "Hepatitis C Test Codes Grouper",
   "status": "draft",
@@ -11,15 +11,15 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de2" ]
+      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-b2-de2" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de5" ]
+      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-b2-de5" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de41" ]
+      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-b2-de41" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de81" ]
+      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-b2-de81" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de103" ]
+      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-b2-de103" ]
     } ]
   },
   "expansion": {

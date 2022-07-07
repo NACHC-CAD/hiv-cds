@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-a0-de56",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-a0-de56",
   "name": "GenderIdentityCodes",
   "title": "Gender Identity Codes",
   "status": "draft",
