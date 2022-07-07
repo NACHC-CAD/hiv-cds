@@ -39,6 +39,6 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-diagnosis#Condition.code",
     "text": "Concepts Associated with HIV Diagnosis",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a1-de2"
+    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/nachc-a1-de2"
   } ]
 }
