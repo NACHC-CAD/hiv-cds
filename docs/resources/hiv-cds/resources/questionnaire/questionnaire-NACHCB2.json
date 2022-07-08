@@ -39,12 +39,12 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-test#Observation.code",
     "text": "Concepts Associated with HCV Testing",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de1-codes-grouper.json"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-procedures#Procedure.code",
     "text": "Concepts Associated with HCV Procedures",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de113"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-b2-de113.json"
   } ]
 }

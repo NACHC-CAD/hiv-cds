@@ -39,18 +39,18 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-encounter#Encounter.type",
     "text": "The type of patient encounter",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de2"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de2.json"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/sexual-orientation#Observation.code",
     "text": "Concepts Associated with Sexual Orientation Elements",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de49"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de49.json"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/gender-identity#Observation.code",
     "text": "Concepts Associated with Gender Identity Elements",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de56"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56.json"
   } ]
 }

@@ -39,42 +39,42 @@
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-encounters#Encounter.type",
     "text": "Encounters in the usage of Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de2"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de2.json"
   }, {
     "linkId": "2",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/third-trimester-encounters#Encounter.type",
     "text": "Third Trimester Encounters in the usage of Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de39"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de39.json"
   }, {
     "linkId": "3",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-supervision#Procedure.code",
     "text": "Procedures in the usage of the Supervision of Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de43"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de43.json"
   }, {
     "linkId": "4",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/maternal-care#Procedure.code",
     "text": "Procedures identifying Maternal Care for Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de109"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de109.json"
   }, {
     "linkId": "5",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-procedures#Procedure.code",
     "text": "Procedures identified for Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de673"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de673.json"
   }, {
     "linkId": "6",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-observations#Observation.value[x]",
     "text": "Observations identified for Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de905"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de905.json"
   }, {
     "linkId": "7",
     "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/pregnancy-conditions#Condition.code",
     "text": "Conditions identified for Pregnancy",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de1132"
+    "answerValueSet": "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-f2-de1132.json"
   } ]
 }
