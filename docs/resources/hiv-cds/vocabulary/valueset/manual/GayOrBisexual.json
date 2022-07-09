@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "GayOrBisexual",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/valueset/generated/GayOrBisexual",
+  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/GayOrBisexual",
   "name": "GayOrBisexual",
   "title": "Gay Or Bisexual",
   "status": "active",

@@ -31,6 +31,14 @@ get-childitem ./ -recurse -include *.json |
              Set-Content $_
     }
 
+echo "Updating valuesete urls..."
+get-childitem ./ -recurse -include *.json | 
+  select -expand fullname |
+    foreach {
+            (Get-Content $_) -replace 'https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/valueset/generated/', ('https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/') |
+             Set-Content $_
+    }
+
 echo "Done."
 
 
