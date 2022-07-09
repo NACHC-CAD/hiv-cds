@@ -1,5 +1,5 @@
 clear
-echo "Adding .json suffix"
+echo "Adding .json suffix..."
 get-childitem ./ -recurse -include *.json | 
   select -expand fullname |
     foreach {
@@ -7,11 +7,22 @@ get-childitem ./ -recurse -include *.json |
              Set-Content $_
     }
 
+echo "Cleaning up .json suffixes..."
 get-childitem ./ -recurse -include *.json | 
   select -expand fullname |
     foreach {
             (Get-Content $_) -replace '\.json\.json', ('.json') |
              Set-Content $_
     }
+
+echo "Updating urls..."
+get-childitem ./ -recurse -include *.json | 
+  select -expand fullname |
+    foreach {
+            (Get-Content $_) -replace '\.json\.json', ('.json') |
+             Set-Content $_
+    }
+
+echo "Done."
 
 
