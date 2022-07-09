@@ -15,11 +15,19 @@ get-childitem ./ -recurse -include *.json |
              Set-Content $_
     }
 
-echo "Updating urls..."
+echo "Updating valuesete urls..."
 get-childitem ./ -recurse -include *.json | 
   select -expand fullname |
     foreach {
-            (Get-Content $_) -replace '\.json\.json', ('.json') |
+            (Get-Content $_) -replace 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/', ('https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/valueset/generated/') |
+             Set-Content $_
+    }
+
+echo "Updating valuesete urls..."
+get-childitem ./ -recurse -include *.json | 
+  select -expand fullname |
+    foreach {
+            (Get-Content $_) -replace 'https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/valueset/generated/nachc', ('https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/valueset/generated/valueset-nachc') |
              Set-Content $_
     }
 
